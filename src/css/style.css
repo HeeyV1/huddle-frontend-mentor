@@ -1,0 +1,111 @@
+body{
+    background:  hsl(257, 40%, 49%)  url(../images/bg-mobile.svg) no-repeat;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+
+}
+    
+.logo {
+    margin: 20px;
+    width: 150px;    
+}
+
+.container{
+    margin: 30px;
+}
+
+    
+.image{
+    width: 317px;
+    margin: 0 auto;
+ }
+    
+ .infos{
+    width: 330px;
+    text-align: center;
+}
+    
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+    
+p{
+    font-size: 17px;
+}
+    
+    .btn{
+    width: 180px;
+    height: 40px;
+    margin: 20px;
+    border: #fff;
+    border-radius: 20px;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+    
+    }
+    
+    
+    .sociais{
+        text-align: center;
+        margin: 15px;
+        margin-right: 80px;
+    }
+    
+    .social{
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+    }
+
+
+    @media screen and (min-width: 790px) and (max-width: 1879px){
+
+
+        body{
+            background: hsl(257, 40%, 49%)  url(../images/bg-desktop.svg) no-repeat;
+        }
+        
+
+        .logo{
+            margin: 30px;
+            width: 264px;
+        }
+        .container{
+            
+            display: flex;
+
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .image{
+            
+            width: 709px;
+            margin: 0 40px;
+        }
+
+        .infos{
+            width: 500px;
+            text-align: start;
+            margin: 50px 0;
+            
+        }
+
+
+        p{
+            font-size: 15px;
+            margin-top: 25px;
+            
+        }
+
+
+         footer, .sociais{
+           text-align: center;
+           margin-left: 330px;
+           cursor: pointer;
+            
+        }
+
+
+    }
